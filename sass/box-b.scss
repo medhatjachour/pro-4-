@@ -1,0 +1,198 @@
+.box-b{
+    width: 100%;
+    display: flex;
+    background-color: #f8f8f8;
+    padding-top: 60px;
+    padding-bottom: 35px;
+
+    /*1*/
+    .bx1{
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+        a{
+            color: gray;
+            i{
+                margin-right: 10px;
+            }
+
+        }
+        p{
+            margin-top: 20px;
+        }
+        ul{
+            list-style: none;
+            padding-left: 0px;
+            i {
+                margin-right: 15px;
+                color: #16b739;
+            }
+            li{
+                margin-left: 0px;
+            }
+        }
+        .open{
+            width: 100%;
+            
+            margin: 25px 0px;
+            background-color: rgba(0,77,218,.05);
+            padding: 25px 25px 25px 80px;
+            position: relative;
+
+            i{
+                        
+            position: absolute;
+            left: 25px;
+            top: 25px;
+            font-size: 36px;
+            font-size: 2.25rem;
+            color: #555;
+            }
+            .ribon{
+                width: 100px;
+                height: 30px;
+                font-size: 10px;
+                color: white;
+                background: #79a70a;
+                position: absolute;
+                right: -10px;
+                top: 20px;
+                text-align: center;
+                padding-top: 5px;
+                transform: rotate(45deg);
+            }
+            ul{
+                margin-top: 25px;
+                li{
+                    margin-top: 3px;
+                }
+                span{
+                    float: right;
+                }
+            }
+            
+        }        
+
+    }
+
+    /*2*/
+    .bx2{
+        border-bottom: 1px solid lightgray;
+        width: 100%; 
+    h4{
+        margin: 25px 0px;
+    }  
+    ul{
+        list-style: none;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .row{
+        li{
+            height: 150px;
+        }
+        .img{
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            border: 1px dotted  #ddd;
+            overflow: hidden;
+            float: left;
+            margin-right: 20px;
+            img{
+                width: 88px;
+                height: auto;
+                text-align: center;
+            }
+        }
+        h6{
+            margin-left: 108px;
+            font-size: .875rem;
+            border-bottom: 1px dashed #ddd;
+            padding-bottom: 5px;
+            span{
+                float: right;
+            }
+        }
+        p{
+            
+            font-size: 15px;
+        }
+    }
+
+    }
+
+    /*3*/
+    .bx3{
+        border-bottom: 3px solid lightgray;
+        width: 100%;
+        padding-bottom: 35px;
+        h5{
+            margin: 20px 0px;
+        }
+    }
+    
+    /*4*/
+    .bx4{
+        
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+        .row{
+            padding: 25px 0px;
+            .green-box{
+                text-align: center;
+                margin-bottom: 10px;
+                background-color: #32a067;
+                color: #fff;
+                padding: 20px 10px;
+                strong{font-size: 2.625rem;
+                    display: block;
+                    line-height: 1;
+                }
+            }
+            .progress{
+                margin-bottom: 10px;
+            }
+            .progress-bar{
+                background-color: #32a067;
+            }
+        }
+        .review{
+            width: 100%;
+            display: flex;
+            margin: 20px 0px;
+        }    
+        .img{
+            order: 1;
+            margin-right: 20px;
+        }
+        .txt{
+
+            padding: 20px;
+            order: 2;
+            background-color: white;
+            border-radius: 5px;
+            i{
+                font-size: 15px;
+                color: gold;
+
+            }
+            .spi{
+                color: lightslategray;
+            }
+            span{
+                display: block;
+                font-style: oblique;
+                font-size: 14px;
+                color: gray;
+                margin: 10px 0px;
+            }
+        }
+    }
+
+    /*5*/
+    .bx5{
+        width: 100%;
+    }
+    
+
+}

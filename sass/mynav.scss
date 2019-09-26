@@ -1,0 +1,29 @@
+.mynav{
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    border-bottom: 1px solid #ededed;
+    display: flex;
+    .bg-light {
+        background-color: #ffffff!important;
+        button{
+            background-color: #004dda;
+            color: white;
+            border: 0px;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: sans-serif;
+            transition: .5s;
+        }
+        button:hover{
+            background-color: #ffc107;
+            color: #222!important;
+            transition: .5s;
+        }
+        i{
+            color: gray;
+            margin-left: 8px;
+            font-size: 22px;
+        }
+    }
+}

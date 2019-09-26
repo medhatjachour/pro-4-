@@ -1,0 +1,16 @@
+.box-a {
+  width: 100%;
+  display: flex;
+  background-color: #004dda; }
+  .box-a .bg-light {
+    background-color: transparent !important;
+    color: white; }
+    .box-a .bg-light .navbar-text {
+      color: white; }
+    .box-a .bg-light a {
+      color: white;
+      cursor: pointer;
+      font-size: 20px; }
+    .box-a .bg-light .sp-a {
+      color: lightgray;
+      margin-left: 20px; }

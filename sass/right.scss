@@ -1,0 +1,215 @@
+.rightbx{
+    width: 100%;
+    display: flex;
+    padding: 20px; 
+    .box{
+        position: sticky;
+        top: 150px;
+        width: 100%;
+        height: 500px;
+    }
+    .mainbx{ 
+        float: left;
+        background-color: #fff;
+        padding: 25px 25px 15px 25px;
+        -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+        -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+        box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        border-radius: 3px;
+        
+        width: 100%;
+        margin-bottom: 30px;
+        background-color: white;
+        .header{
+            padding-bottom: 10px;
+            border-bottom: 1px dotted lightgray;
+            h4{
+                display: inline;
+            }
+            .inhdr{
+                float: right;
+                strong{
+                    background-color: #32a067;
+                    color: #fff;
+                    line-height: 1;
+                    -webkit-border-radius: 5px 5px 5px 0;
+                    -moz-border-radius: 5px 5px 5px 0;
+                    -ms-border-radius: 5px 5px 5px 0;
+                    border-radius: 5px 5px 5px 0;
+                    padding: 10px;
+                    display: inline-block;
+                }
+                p{
+                    font-style: italic;
+                    font-size: 13px;
+                    color: gray;;
+                }
+                span{
+                    display: inline-block;
+                    position: relative;
+                    top: 7px;
+                    margin-right: 8px;
+                    font-size: 12px;
+                    font-size: .75rem;
+                    text-align: right;
+                    line-height: 1.1;
+                    font-weight: 500;
+                }
+                
+            }
+        }
+        .in-a{
+            i{
+                font-size: 18px;
+                color: gray;
+            }
+            margin-top: 20px; 
+            width: 100%;
+            border: 1px solid rgb(168, 171, 196);
+        .dropdown{
+            background-color: white;
+            border: 0px;
+            width: 100%;
+            button{
+                background-color: white;
+                width: 100%;
+                color: gray;
+                text-align: left;
+                border: 0px;
+                span{   
+                     display: inline-block;
+                    font-size: 11px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    text-align: center;
+                    position: relative;
+                    top: 0;
+                    left: 2px;
+                    height: 18px;
+                    width: 18px;
+                    background-color: #66676b;
+                    border-radius: 50%;
+                    color: #fff;
+                }
+            }
+            .dropdown-toggle::after{
+                float: right;
+                margin: 8px;
+                font-size: 18px;
+            }
+        }
+        }
+        input{           
+            width: 90%;
+            border: 0px;
+            padding: 10px 5px;
+            height: 40px;
+            color: black;
+            font-size: 15px;
+        
+        }
+      .mybtn{
+            width: 100%;
+            height: 100%;
+            background-color: #004dda;
+            color: white;
+            text-align: center;
+            height: 44px;
+            border: 0px;
+            margin-top: 30px;
+            transition: .3s;
+            cursor: pointer;
+        }
+        .mybtn:hover{
+            background-color: #32a067;
+            transition: .6s;
+        }
+        .lstbtn{
+            background-color: white;
+            border-color: #555;
+            color: #555;
+            width: 100%;
+            height: 44px;
+            cursor: pointer;
+            margin-top: 14px;
+            transition: .5s;
+            border-radius: 3px;
+            i{
+                margin-right:8px; 
+            }
+        }
+        .lstbtn:hover{
+            background-color: #555;
+            color: white;
+            transition: .5s;
+        }
+        .small{
+            margin-top: 8px;
+            text-align: center;
+        }
+
+    }
+    .scl-bx{
+        float: left;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        .fsocial{        
+            color: #3b5998;
+            background: #fff;
+            border: 1px solid #ededed;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            border-radius: 3px;
+            padding: 7px 20px;
+            transition: .3s;
+            display: inline-block;
+        }
+        .fsocial:hover{
+            background-color: #3b5998;
+            color: white;
+            transition: .3s;
+        }
+        .tsocial{             
+            color: #1da1f2; 
+            background: #fff;
+            border: 1px solid #ededed;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            border-radius: 3px;
+            padding: 7px 20px;
+            transition: .3s;
+            display: inline-block;
+        }
+        .tsocial:hover{
+            background-color: #1da1f2;
+            color: white;
+            transition: .3s;
+        }
+        .gsocial{            
+            color: #dd4b39;
+            background: #fff;
+            border: 1px solid #ededed;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            border-radius: 3px;
+            padding: 7px 20px;
+            transition: .3s;
+            display: inline-block;
+        }
+        .gsocial:hover{
+            background-color: #dd4b39;
+            color: white;
+            transition: .3s;
+        }
+    }
+}
+input:focus{
+    outline: none;
+}
