@@ -1,8 +1,8 @@
 # Frontend Website
 
 This is a frontend website built with HTML, CSS, SASS, and jQuery. The website demonstrates the ability to change the main color, display maps, display a form, and show reviews.
-![alt text](https://github.com/medhatjachour/Frontend_Website/blob/main/15/img.png?raw=true)
-![alt text](https://github.com/medhatjachour/Frontend_Website/blob/main/15/img2.png?raw=true)
+![alt text](https://github.com/medhatjachour/Frontend_Website/blob/master/15/img.png?raw=true)
+![alt text](https://github.com/medhatjachour/Frontend_Website/blob/master/15/img2.png?raw=true)
 
 ## Features
 
