@@ -1,8 +1,8 @@
 # Frontend Website
 
 This is a frontend website built with HTML, CSS, SASS, and jQuery. The website demonstrates the ability to change the main color, display maps, display a form, and show reviews.
-![alt text](https://github.com/medhatjachour/pro-4-/blob/main/img/img.png?raw=true)
-![alt text](https://github.com/medhatjachour/pro-4-/blob/main/img/img2.png?raw=true)
+![alt text](https://github.com/medhatjachour/Frontend_Website/blob/main/img/img.png?raw=true)
+![alt text](https://github.com/medhatjachour/Frontend_Website/blob/main/img/img2.png?raw=true)
 
 ## Features
 
@@ -22,11 +22,11 @@ This is a frontend website built with HTML, CSS, SASS, and jQuery. The website d
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/pro-4-.git
+    git clone https://github.com/yourusername/Frontend_Website.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd pro-4-
+    cd Frontend_Website
     ```
 
 ## Usage
